@@ -1,0 +1,22 @@
+{
+  "name": "ultimate-flask-front-end-2.1",
+  "version": "1.0.0",
+  "description": "learning to integrate flask with reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realpython/ultimate-flask-front-end.git"
+  },
+  "author": "Zeke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realpython/ultimate-flask-front-end/issues"
+  },
+  "homepage": "https://github.com/realpython/ultimate-flask-front-end#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}

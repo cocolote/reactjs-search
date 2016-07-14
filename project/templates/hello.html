@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>Flask React</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://fb.me/react-15.1.0.js"></script>
+    <script src="https://fb.me/react-dom-15.1.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
     <!-- styles -->
   </head>
   <body>
@@ -13,5 +18,18 @@
       <div id="content"></div>
     </div>
     <!-- scripts -->
+    <script type="text/babel">
+        /*** @jsx React.DOM */
+        var RealPython = React.createClass({
+          render: function() {
+            return(<h2>Greetings, from Real Python!</h2>);
+          }
+        });
+
+        ReactDOM.render(
+          <RealPython />,
+          document.getElementById('content')
+        );
+    </script>
   </body>
 </html>

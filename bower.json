@@ -1,0 +1,21 @@
+{
+  "name": "ultimate-flask-front-end-2.1",
+  "authors": [
+    "cocolote <skiel.j.lopez@gmail.com>"
+  ],
+  "description": "learning to integrate flask with reactjs",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/realpython/ultimate-flask-front-end",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "react": "^15.2.1"
+  }
+}
