@@ -26,9 +26,10 @@ var CountriesList = React.createClass({
     render: function() {
       return(
         <div>
-            <DynamicSearch refreshList={ this.refreshList } /> <ul>
+            <DynamicSearch refreshList={ this.refreshList } />
+            <ul className="countries-list">
                 { this.state.countries.map(function(country) {
-                    return <li>{ country.name }</li> 
+                    return <li className="country">{ country.name }</li> 
                   })
                 }
             </ul>
@@ -66,10 +67,13 @@ var DynamicSearch = React.createClass({
 
     render: function() {
       return (
-        <input type="text"
-               value={ this.state.searchString }
-               onChange={ this.handleChange }
-               placeholder="Search!" />
+        <div>
+            <input className="dynamic-search"
+                   type="text"
+                   value={ this.state.searchString }
+                   onChange={ this.handleChange }
+                   placeholder="Search!" />
+        </div>
       )
     },
 });

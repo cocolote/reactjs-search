@@ -1,1 +1,57 @@
 /* custom styles */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+  height: 100%;
+  font-size: 100%;
+  margin: 0;
+  background-color: #496284;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  color: #4a5186;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 25vw;
+  height: 100vh;
+
+  margin: 0 auto;
+  padding: 0 5rem;
+  background-color: #6084b3;
+}
+
+.dynamic-search {
+  width: 100%;
+  padding: 0.5rem 0.2rem;
+
+  border: none;
+  border-bottom: 2px solid #444;
+  background-color: transparent;
+
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3rem;
+  color: #4a5186;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+}
+
+.countries-list {
+  list-style: none;
+  padding: 0;
+  height: 85vh;
+  overflow-y: auto;
+}
+
+.country {
+  border: 2px solid #374084;
+  padding: 0.5rem 0.3rem;
+  background-color: #4a5186;
+  border-radius: 0.2rem;
+  color: #000a52;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+  margin: 2px 0;
+}
