@@ -35,8 +35,7 @@ var CountriesList = React.createClass({
             </ul>
         </div>
       );
-    }
-});
+    } });
 
 var DynamicSearch = React.createClass({
 
